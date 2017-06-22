@@ -7,11 +7,18 @@ html, body
 	margin: 0
 	box-sizing: border-box
 
+span, p
+	line-height: 1
+
 a
 	color: inherit
 	text-decoration: none
 	&:hover
 		text-decoration: none
+
+h1, h2, h3, h4, h5, h6
+	font-family: "HelveticaNeueCyr", Helvetica
+	line-height: 1
 
 body
 	font-family: "HelveticaNeueCyr", Helvetica
@@ -23,7 +30,9 @@ body
 	min-width: 1170px
 	display: flex
 	flex-direction: column
-	height: 100%
+
+.content-wrapper
+	padding-top: 104px
 
 .section
 	position: relative
@@ -49,3 +58,92 @@ body
 		a
 			&:hover
 				color: #ffd543
+
+.komatsu
+	padding-top: 74px
+
+.komatsu__bg-inscription
+	background: url("../images/komatsu-bg-inscription.png") no-repeat
+	width: 795px
+	height: 146px
+	padding-top: 37px
+	
+.bg-yellow
+	position: absolute
+	background-color: #ffd543
+	width: 100%
+	height: 1210px
+	transform: skew(-31deg) rotate(148deg)
+	top: -670px
+
+.bg-white
+	position: absolute
+	background-color: #ffffff
+	width: 100%
+	height: 1030px
+	transform: skew(-31deg) rotate(148deg)
+	top: 120px
+	z-index: 20
+
+.task__macbook-screenshot
+	background: url("../images/komatsu-site-screenshot.png") no-repeat
+	width: 764px
+	height: 521px
+	flex-shrink: 0
+	margin: 50px 0 0 -50px
+	z-index: 1
+
+.task__descr
+	margin-top: 150px
+	margin-left: -7px
+	width: 340px
+
+.z-index-20
+	z-index: 20
+
+.z-index-30
+	z-index: 30
+
+.section-number
+	position: absolute
+	font-family: "Fira Sans"
+	font-size: 109px
+	top: 210px
+	right: 350px
+	letter-spacing: -2px
+
+.donut-black
+	width: 133px
+	height: 133px
+	border: 40px solid #000000
+	border-radius: 50%
+
+.donut-gray
+	width: 133px
+	height: 133px
+	border: 40px solid #e2e4eb
+	border-radius: 50%
+
+.komatsu__donut-black
+	position: absolute
+	top: 90px
+	right: 25px
+	z-index: 30
+
+.task__donut-gray
+	position: absolute
+	bottom: -154px
+	left: -181px
+	z-index: 30
+
+.parallelepiped-yellow
+	position: absolute
+	width: 232px
+	height: 121px
+	background-color: #ffd543
+	top: 473px
+	left: 382px
+	transform: skew(-36deg) rotate(-34deg)
+
+.solution
+	padding-top: 110px
