@@ -1,0 +1,15 @@
+.fri
+	display: inline-block
+	vertical-align: middle
+
+.fri-logo
+	+sprite(logo)
+
+.fri-arrow-dark
+	+sprite(arrow-dark)
+
+.nav__back
+	> a
+		&:hover
+			.fri-arrow-dark
+				+sprite(arrow-yellow)
