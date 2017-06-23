@@ -250,6 +250,20 @@
         return plugin;
     };
 
+    YOURAPPNAME.prototype.designSlider = function () {
+        $('.jq-solution-slider').owlCarousel({
+            items: 3,
+            loop: true,
+            autoWidth: false,
+            nav: true,
+            navText: '',
+            rewind: true,
+            touchDrag: false,
+            mouseDrag: false,
+            margin: 300
+        });
+    };
+
     var app = new YOURAPPNAME(document);
 
     app.appLoad('loading', function () {
@@ -269,5 +283,7 @@
         console.log('App was fully load! Paste external app source code here... For example if your use jQuery and something else');
         // App was fully load! Paste external app source code here... 4example if your use jQuery and something else
         // Please do not use jQuery ready state function to avoid mass calling document event trigger!
+
+        app.designSlider();
     });
 })();
