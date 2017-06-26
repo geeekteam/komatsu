@@ -33,6 +33,7 @@ body
 	min-width: 1170px
 	display: flex
 	flex-direction: column
+	overflow: hidden
 
 .content-wrapper
 	padding-top: 104px
@@ -40,7 +41,6 @@ body
 .section
 	position: relative
 	width: 100%
-	overflow: hidden
 
 .container
 	position: relative
@@ -326,7 +326,7 @@ body
 
 .interesting-descr
 	position: absolute
-	top: 965px
+	top: 975px
 	left: 140px
 
 .title-with-bg-title
@@ -351,8 +351,6 @@ body
 	color: #dadce5
 	line-height: 1
 
-.interesting-descr__title-bg
-
 .interesting-descr__text
 	width: 440px
 	color: #000000
@@ -361,7 +359,6 @@ body
 	background: url("../images/interesting-excavator.png") no-repeat
 	width: 180px
 	height: 180px
-	margin-right: 25px
 
 .interesting-loader
 	background: url("../images/interesting-loader.png") no-repeat
@@ -374,9 +371,323 @@ body
 	margin-left: 118px
 	z-index: 30
 	margin-right: 89px
+
+.interesting-wrapper
+	margin-bottom: 193px
+
+.interesting-filter
+	margin-left: -3px
 	
 .interesting-filter__title-wrapper
 	position: relative
 	height: 64px
 	width: 100%
 	margin-top: -15px
+
+.button__orange
+	background: url("../images/filter-button-orange.jpg") no-repeat
+	width: 240px
+	height: 40px
+	flex-shrink: 0
+
+.button__white
+	background: url("../images/filter-button-white.jpg") no-repeat
+	width: 170px
+	height: 40px
+	flex-shrink: 0
+
+.select
+	background: url("../images/filter-select.jpg") no-repeat
+	width: 420px
+	height: 40px
+	flex-shrink: 0
+
+.reset-filter
+	font-family: "Roboto Condensed"
+	font-size: 14px
+	color: #e9af3c
+	font-weight: normal
+	text-decoration: underline
+	cursor: pointer
+	&:hover
+		text-decoration: none
+
+.interesting-tech__name
+	font-family: "Roboto Condensed"
+	font-weight: bold
+	font-size: 16px
+	color: #636363
+	text-align: center
+	text-transform: uppercase
+	line-height: 1.2
+
+.interesting-tech-wrapper
+	display: flex
+	flex-direction: column
+	width: 185px
+
+.interesting__bg-bottom-white
+	position: absolute
+	background-color: #ffffff
+	top: 63px
+	transform: skew(-27deg) rotate(161deg)
+	left: 520px
+	width: 120px
+	height: 50px
+
+.relative-wrapper
+	position: relative
+
+.distributor-find
+	position: relative
+	display: flex
+	flex-direction: column
+
+.distributor-find__bg-map
+	background: url("../images/gray-map.png") no-repeat
+	background-position: 407px 188px
+
+.distributor-find__notebook
+	background: url("../images/distributor-find-notebook.png") no-repeat
+	width: 872px
+	height: 527px
+	z-index: 10
+	position: relative
+
+.distributor-find__left-item
+	position: relative
+	margin-top: 83px
+
+.distributor-find__notebook
+	margin-left: -172px
+
+.distributor-find__notebook-parallelepiped
+	position: absolute
+	top: 378px
+	left: 320px
+
+.distributor-find__right-item
+	margin-top: 128px
+	margin-left: -47px
+	width: 370px
+	
+.distributor-find__input
+	background: url("../images/distributor-find-input.png") no-repeat
+	width: 363px
+	height: 40px
+
+.vertical-line
+	position: relative
+	width: 2px
+	height: 115px
+	background: #000009
+	margin: -10px auto 40px
+
+.vertical-line_section-4
+	margin-top: 0
+
+.distributor-find-grid
+	display: flex
+	justify-content: center
+	margin: 0 auto 80px
+
+.distributor-find__maintance
+	position: relative
+	width: 512px
+	padding: 55px 70px 0 65px
+	display: flex
+	height: 872px
+	flex-direction: column
+
+.distributor-find__text
+	height: 164px
+
+.distributor-find__maintance-bg
+	position: absolute
+	height: 782px
+	background-color: #ebecf1
+	width: 100%
+	top: 0
+	left: 0
+	z-index: 1
+
+.distributor-find__komtrax
+	position: relative
+	width: 512px
+	height: 872px
+	padding: 55px 70px 0 65px
+	display: flex
+	flex-direction: column
+
+.distributor-find__komtrax-bg
+	position: absolute
+	background-color: #f5f5f8
+	width: 100%
+	height: 782px
+	top: 0
+	left: 0
+
+.distributor-find__maintance-image
+	background: url("../images/distributor-find-maintance-image.png") no-repeat
+	width: 425px
+	height: 512px
+	margin-left: -20px
+
+.distributor-find__komtrax-image
+	background: url("../images/distributor-find-komtrax-image.png") no-repeat
+	width: 425px
+	height: 512px
+	margin-left: -20px
+
+.section_4
+	padding-top: 130px
+
+.my-komatsu
+	position: relative
+
+.my-komatsu__title
+	margin: -30px auto 35px
+
+.my-komatsu__descr
+	width: 740px
+	margin: 0 auto
+
+.my-komatsu__donut-gray
+	position: absolute
+	top: 104px
+	left: -218px
+
+.my-komatsu__registration
+	position: relative
+	background: url("../images/my-komatsu-registration.png") no-repeat
+	width: 445px
+	height: 711px
+	margin-left: 208px
+
+.my-komatsu__auth
+	position: relative
+	background: url("../images/my-komatsu-auth.png") no-repeat
+	width: 479px
+	height: 379px
+	z-index: 10
+	margin-top: -565px
+	margin-left: 466px
+
+.my-komatsu__donut-yellow
+	position: absolute
+	top: 80px
+	right: 265px
+
+.my-komatsu__bg-yellow
+	top: 930px
+	height: 1046px
+
+.capabilities
+	position: relative
+	margin-bottom: 11px
+
+.capabilities__descr
+	margin: 194px 0 0 199px
+	width: 330px
+	flex-shrink: 0
+
+.capabilities__image
+	background: url("../images/capabilities.png") no-repeat
+	width: 1080px
+	height: 652px
+	margin-left: -114px
+
+.capabilities__slider
+	margin: 46px 0 0 267px
+	.owl-dots
+		position: absolute
+		margin-top: -79px
+		left: 46%
+		display: flex
+	.owl-dot
+		width: 9px
+		height: 9px
+		background-color: #000
+		border-radius: 50%
+		margin-right: 31px
+		&:last-child
+			margin-right: 0
+		&.active
+			background-color: #fff
+
+.capabilities__parallelepiped
+	background-color: #e0bb3a
+	left: 800px
+
+.distributor-capabilities__descr
+	width: 820px
+	margin: 0 auto 90px
+
+.distributor-news
+	display: flex
+	justify-content: center
+
+.distributor-image-1
+	background: url("../images/distributor-image.png") no-repeat
+	width: 420px
+	height: 25px
+	margin-bottom: 6px
+
+.distributor-image-2
+	background: url("../images/distributor-image-2.png") no-repeat
+	width: 437px
+	height: 414px
+
+.distributor-news__left-item
+	width: 437px
+	flex-shrink: 0
+	margin-right: 40px
+	display: flex
+	flex-direction: column
+	align-items: center
+	&:last-child
+		margin-right: 0
+
+.distributor-news__right-item
+	width: 420px
+
+.distributor-news_donut
+	position: absolute
+	right: -35px
+	bottom: 280px
+	
+.section-number_5
+	position: relative
+	top: 0
+	left: 0
+	text-align: center
+	margin-top: 196px
+	line-height: 1
+	&::after
+		position: absolute
+		content: ''
+		height: 115px
+		width: 2px
+		left: 50%
+		top: -110px
+		transform: translateX(-50%)
+		background-color: #000000
+
+.distributor-news__bg-bottom-white
+	position: absolute
+	background-color: #ffffff
+	transform: skew(-27deg) rotate(161deg)
+	width: 120px
+	height: 50px
+	left: 530px
+	bottom: -5px
+
+.result-map
+	background: url("../images/result-map.png") no-repeat
+	width: 683px
+	height: 377px
+	margin: -75px auto 28px
+
+.result__descr
+	width: 740px
+	margin: 0 auto

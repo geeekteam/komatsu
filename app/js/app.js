@@ -250,7 +250,7 @@
         return plugin;
     };
 
-    YOURAPPNAME.prototype.designSlider = function () {
+    YOURAPPNAME.prototype.initSolutionSlider = function () {
         $('.jq-solution-slider').owlCarousel({
             items: 3,
             loop: true,
@@ -263,6 +263,18 @@
             margin: 300
         });
     };
+
+    YOURAPPNAME.prototype.initCapabilitiesSlider = function () {
+        $('.jq-capabilities-slider').owlCarousel({
+            items: 1,
+            loop: true,
+            dots: true,
+            mouseDrag: false,
+            autoplay: true,
+        });
+    };
+
+
 
     var app = new YOURAPPNAME(document);
 
@@ -284,6 +296,7 @@
         // App was fully load! Paste external app source code here... 4example if your use jQuery and something else
         // Please do not use jQuery ready state function to avoid mass calling document event trigger!
 
-        app.designSlider();
+        app.initSolutionSlider();
+        app.initCapabilitiesSlider();
     });
 })();
