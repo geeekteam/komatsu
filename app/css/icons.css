@@ -4,8 +4,8 @@
 }
 
 .fri-logo {
-  background-image: url('../images/icons-s9c8542c6ff.png');
-  background-position: 0 -88px;
+  background-image: url('../images/icons-sec94598fc8.png');
+  background-position: 0 -135px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -15,7 +15,7 @@
 }
 
 .fri-arrow-dark {
-  background-image: url('../images/icons-s9c8542c6ff.png');
+  background-image: url('../images/icons-sec94598fc8.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -26,8 +26,8 @@
 }
 
 .nav__back > a:hover .fri-arrow-dark {
-  background-image: url('../images/icons-s9c8542c6ff.png');
-  background-position: 0 -26px;
+  background-image: url('../images/icons-sec94598fc8.png');
+  background-position: 0 -73px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -37,12 +37,34 @@
 }
 
 .komatsu-logo {
-  background-image: url('../images/icons-s9c8542c6ff.png');
-  background-position: 0 -52px;
+  background-image: url('../images/icons-sec94598fc8.png');
+  background-position: 0 -99px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
   vertical-align: middle;
   height: 31px;
   width: 168px;
+}
+
+.komatsu-wrapper .pagenavi .pagenavi__post.is-left a:hover::before {
+  background-image: url('../images/icons-sec94598fc8.png');
+  background-position: 0 -26px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 42px;
+  width: 21px;
+}
+.komatsu-wrapper .pagenavi .pagenavi__post.is-right a:hover::before {
+  transform: rotate(180deg);
+  background-image: url('../images/icons-sec94598fc8.png');
+  background-position: 0 -26px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 42px;
+  width: 21px;
 }

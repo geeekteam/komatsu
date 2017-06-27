@@ -271,6 +271,8 @@
             dots: true,
             mouseDrag: false,
             autoplay: true,
+            autoplayTimeout: 3500,
+            smartSpeed: 1000
         });
     };
 
@@ -298,5 +300,6 @@
 
         app.initSolutionSlider();
         app.initCapabilitiesSlider();
+        new WOW().init();
     });
 })();

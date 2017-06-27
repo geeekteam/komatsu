@@ -1083,14 +1083,126 @@ body {
   bottom: -5px;
 }
 
+.result {
+  margin-bottom: 80px;
+}
+
 .result-map {
+  position: relative;
   background: url("../images/result-map.png") no-repeat;
   width: 683px;
   height: 377px;
   margin: -75px auto 28px;
+  z-index: 10;
 }
 
 .result__descr {
   width: 740px;
   margin: 0 auto;
+}
+
+.result__donut {
+  position: absolute;
+  bottom: 350px;
+  left: 330px;
+  z-index: 1;
+}
+
+.komatsu-wrapper .nav-white .nav__menu .nav__menu__contacts .btn {
+  font-family: "Bello Pro";
+}
+.komatsu-wrapper .nav-white .nav__menu .nav__menu__contacts .btn:hover {
+  color: #FFFFFF;
+  background-color: #ffd543;
+  border-color: #ffd543;
+}
+.komatsu-wrapper .nav-white .nav__back a:hover {
+  color: #ffd543;
+}
+.komatsu-wrapper .nav-white {
+  height: 113px;
+  position: absolute;
+}
+.komatsu-wrapper .pagenavi .pagenavi__post a .pagenavi__cell {
+  font-family: "HelveticaNeueCyr", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 50px;
+}
+.komatsu-wrapper .pagenavi .pagenavi__post a {
+  color: #000;
+}
+.komatsu-wrapper .pagenavi .pagenavi__post a:hover {
+  border-color: #ffd543;
+  color: #ffd543;
+}
+.komatsu-wrapper .link_site {
+  text-align: center;
+}
+.komatsu-wrapper .pagenavi {
+  padding-top: 0;
+  padding-bottom: 80px;
+}
+.komatsu-wrapper .main_btn {
+  font-family: "Bello Pro";
+  display: inline-block;
+  font-size: 20px;
+  color: #000;
+  border: 2px solid #ffd543;
+  background-color: #ffd543;
+  padding: 5px 30px;
+}
+.komatsu-wrapper .main_btn:hover {
+  text-decoration: none;
+  color: #ffd543;
+  background-color: #fff;
+  border-color: #ffd543;
+}
+.komatsu-wrapper .feedback {
+  padding-top: 90px;
+  padding-bottom: 107px;
+}
+.komatsu-wrapper .feedback .feedback__desktop p,
+.komatsu-wrapper .feedback .feedback__desktop a,
+.komatsu-wrapper .feedback__name {
+  font-family: "HelveticaNeueCyr", HelveticaNeueCyr;
+}
+.komatsu-wrapper .feedback__name {
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+.komatsu-wrapper .feedback .feedback__email .form-group .btn {
+  font-family: "Bello Pro";
+  border-radius: 0;
+  height: auto;
+  background-color: transparent;
+  font-size: 28px;
+  color: #464646;
+  border: 3px solid #464646;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.komatsu-wrapper .feedback .feedback__email .form-group .btn:hover {
+  background-color: #ffd543;
+  border-color: #ffd543;
+  color: #000;
+}
+.komatsu-wrapper .vista {
+  background-color: #ffd543;
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+.komatsu-wrapper .vista,
+.komatsu-wrapper .vista__name,
+.komatsu-wrapper .vista p,
+.komatsu-wrapper .vista span {
+  font-family: "HelveticaNeueCyr", HelveticaNeueCyr;
+  color: #000;
+}
+.komatsu-wrapper .section__space b {
+  background-color: #ffd543;
+}
+.komatsu-wrapper .contacts {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
 }
