@@ -270,8 +270,8 @@
             loop: true,
             dots: true,
             mouseDrag: false,
-            // autoplay: true,
-            autoplayTimeout: 3500,
+            autoplay: true,
+            autoplayTimeout: 4000,
             smartSpeed: 1000
         });
     };
