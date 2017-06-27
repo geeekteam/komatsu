@@ -82,12 +82,17 @@ body
 
 .komatsu__bg-white
 	position: absolute
-	height: 350px
-	background: #ffffff
-	width: 120px
 	top: 272px
 	right: 340px
-	transform: skew(-31deg) rotate(148deg)
+	height: 350px
+	width: 120px
+	&::after
+		position: absolute
+		content: ''
+		height: 350px
+		width: 120px
+		background: #ffffff
+		transform: skew(-31deg) rotate(148deg)
 
 .task__macbook-screenshot
 	background: url("../images/komatsu-site-screenshot.png") no-repeat
@@ -112,7 +117,7 @@ body
 	position: absolute
 	font-family: "Fira Sans"
 	font-size: 109px
-	top: 160px
+	top: 210px
 	right: 350px
 	letter-spacing: -2px
 
@@ -254,7 +259,7 @@ body
 
 .section-number_2
 	position: relative
-	top: -40px
+	top: 0
 	right: 0
 	text-align: center
 	line-height: 1
@@ -270,12 +275,15 @@ body
 
 .interesting__bg-white
 	position: absolute
-	background-color: #ffffff
-	top: 68px
-	transform: skew(-27deg) rotate(161deg)
+	top: 62px
 	left: 520px
-	width: 120px
-	height: 200px
+	&::after
+		position: absolute
+		content: ''
+		background-color: #ffffff
+		transform: skew(-27deg) rotate(161deg)
+		width: 120px
+		height: 200px
 
 .komatsu-bg-inscription-gray
 	position: relative
@@ -434,12 +442,15 @@ body
 
 .interesting__bg-bottom-white
 	position: absolute
-	background-color: #ffffff
-	top: 63px
-	transform: skew(-27deg) rotate(161deg)
+	top: 65px
 	left: 500px
-	width: 140px
-	height: 200px
+	&::after
+		position: absolute
+		content: ''
+		background-color: #ffffff
+		transform: skew(-27deg) rotate(161deg)
+		width: 140px
+		height: 200px
 
 .relative-wrapper
 	position: relative
@@ -666,7 +677,7 @@ body
 	
 .section-number_5
 	position: relative
-	top: -40px
+	top: 0
 	left: 0
 	text-align: center
 	margin-top: 196px
@@ -683,12 +694,17 @@ body
 
 .distributor-news__bg-bottom-white
 	position: absolute
-	background-color: #ffffff
-	transform: skew(-27deg) rotate(161deg)
-	width: 140px
-	height: 200px
 	left: 500px
-	bottom: -155px
+	top: 700px
+	&::after
+		position: absolute
+		content: ''
+		background-color: #fff
+		transform: skew(-27deg) rotate(161deg)
+		width: 140px
+		height: 200px
+		top: 0
+		left: 0
 
 .result
 	margin-bottom: 80px
@@ -699,7 +715,7 @@ body
 	width: 683px
 	height: 377px
 	margin: -75px auto 28px
-	z-index: 10
+	z-index: 20
 
 .result__descr
 	width: 740px
