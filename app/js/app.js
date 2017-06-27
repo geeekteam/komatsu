@@ -270,7 +270,7 @@
             loop: true,
             dots: true,
             mouseDrag: false,
-            autoplay: true,
+            // autoplay: true,
             autoplayTimeout: 3500,
             smartSpeed: 1000
         });

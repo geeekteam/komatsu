@@ -136,7 +136,7 @@ body
 .donut-yellow
 	width: 133px
 	height: 133px
-	border: 40px solid rgba(#ffc600, 0.6)
+	border: 40px solid rgba(#ffc600, 0.7)
 	border-radius: 50%
 
 .komatsu__donut-black
@@ -165,6 +165,7 @@ body
 	top: 473px
 	left: 382px
 	transform: skew(-36deg) rotate(-34deg)
+	filter: brightness(105%)
 
 .solution
 	padding-top: 110px
@@ -208,7 +209,7 @@ body
 				> *
 					transform: scale(1)
 					z-index: 2
-					box-shadow: 0 0 10px rgba(#000000, 0.17)
+					box-shadow: 0 0 10px rgba(#000000, 0.27)
 			& + .active + .active
 				margin-left: -200px
 				z-index: 1
@@ -364,6 +365,7 @@ body
 	font-size: 64px
 	color: #dadce5
 	line-height: 1
+	letter-spacing: -0.5px
 
 .interesting-descr__text
 	width: 440px
@@ -391,7 +393,7 @@ body
 
 .interesting-filter
 	margin-left: -3px
-	
+
 .interesting-filter__title-wrapper
 	position: relative
 	height: 64px
@@ -442,6 +444,18 @@ body
 
 .interesting__bg-bottom-white
 	position: absolute
+	top: 60px
+	left: 500px
+	&::after
+		position: absolute
+		content: ''
+		background-color: #ffffff
+		transform: skew(-27deg) rotate(161deg)
+		width: 140px
+		height: 200px
+
+.my-komatsu__bg-bottom-white
+	position: absolute
 	top: 65px
 	left: 500px
 	&::after
@@ -487,7 +501,7 @@ body
 	margin-top: 128px
 	margin-left: -47px
 	width: 370px
-	
+
 .distributor-find__input
 	background: url("../images/distributor-find-input.png") no-repeat
 	width: 363px
@@ -629,14 +643,16 @@ body
 		background-color: #000
 		border-radius: 50%
 		margin-right: 31px
+		flex-shrink: 0
 		&:last-child
 			margin-right: 0
 		&.active
 			background-color: #fff
 
 .capabilities__parallelepiped
-	background-color: #e0bb3a
+	background-color: #ffcc33
 	left: 800px
+	filter: brightness(100%)
 
 .distributor-capabilities__descr
 	width: 820px
@@ -674,7 +690,7 @@ body
 	position: absolute
 	right: -35px
 	bottom: 280px
-	
+
 .section-number_5
 	position: relative
 	top: 0

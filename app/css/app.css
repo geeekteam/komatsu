@@ -409,7 +409,7 @@ body {
 .donut-yellow {
   width: 133px;
   height: 133px;
-  border: 40px solid rgba(255, 198, 0, 0.6);
+  border: 40px solid rgba(255, 198, 0, 0.7);
   border-radius: 50%;
 }
 
@@ -442,6 +442,7 @@ body {
   top: 473px;
   left: 382px;
   transform: skew(-36deg) rotate(-34deg);
+  filter: brightness(105%);
 }
 
 .solution {
@@ -502,7 +503,7 @@ body {
 .solution-slider .owl-item.active + .active > * {
   transform: scale(1);
   z-index: 2;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.27);
 }
 .solution-slider .owl-item.active + .active + .active {
   margin-left: -200px;
@@ -683,6 +684,7 @@ body {
   font-size: 64px;
   color: #dadce5;
   line-height: 1;
+  letter-spacing: -0.5px;
 }
 
 .interesting-descr__text {
@@ -781,10 +783,24 @@ body {
 
 .interesting__bg-bottom-white {
   position: absolute;
-  top: 65px;
+  top: 60px;
   left: 500px;
 }
 .interesting__bg-bottom-white::after {
+  position: absolute;
+  content: "";
+  background-color: #ffffff;
+  transform: skew(-27deg) rotate(161deg);
+  width: 140px;
+  height: 200px;
+}
+
+.my-komatsu__bg-bottom-white {
+  position: absolute;
+  top: 65px;
+  left: 500px;
+}
+.my-komatsu__bg-bottom-white::after {
   position: absolute;
   content: "";
   background-color: #ffffff;
@@ -1013,6 +1029,8 @@ body {
   background-color: #000;
   border-radius: 50%;
   margin-right: 31px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 .capabilities__slider .owl-dot:last-child {
   margin-right: 0;
@@ -1022,8 +1040,9 @@ body {
 }
 
 .capabilities__parallelepiped {
-  background-color: #e0bb3a;
+  background-color: #ffcc33;
   left: 800px;
+  filter: brightness(100%);
 }
 
 .distributor-capabilities__descr {
