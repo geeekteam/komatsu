@@ -461,6 +461,7 @@ body {
   justify-content: center;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  left: 0;
   padding: 15px 50px 15px;
   font-size: 15px;
   color: #000;
