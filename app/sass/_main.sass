@@ -172,16 +172,16 @@ body
 
 .solution-slider__item
 	position: relative
-	width: 400px
-	height: 235px
+	width: 340px
+	height: 197px
 	display: flex
 	align-items: center
 	justify-content: center
 	flex-shrink: 0
 	padding: 15px 50px 15px
-	font-size: 23px
+	font-size: 15px
 	color: #000
-	font-weight: normal
+	font-weight: 300
 	background: #ffffff
 	border: 1px solid #f1f1f1
 
@@ -191,6 +191,7 @@ body
 	.owl-stage
 		display: flex
 		align-items: center
+		height: 270px
 	.owl-stage-outer
 		padding: 25px 0
 	.owl-item
@@ -199,25 +200,27 @@ body
 			transition: all 0.5s ease
 		&.active
 			display: flex
-			margin-left: 100px
 			> *
-				transform: scale(0.7)
+				transform: scale(1)
+				//left: 20px
 			& + .active
-				margin-left: -200px
 				z-index: 2
 				> *
-					transform: scale(1)
+					transform: scale(1.3)
+					//left: 0
 					z-index: 2
 					box-shadow: 0 0 10px rgba(#000000, 0.27)
 			& + .active + .active
-				margin-left: -200px
 				z-index: 1
 				> *
-					transform: scale(0.7)
+					//left: -20px
+					transform: scale(1)
 					z-index: 1
 					box-shadow: none
 
+
 .solution-slider__carousel
+	//max-width: 1000px
 	.owl-nav
 		position: absolute
 		top: 110px
