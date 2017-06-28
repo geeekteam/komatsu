@@ -260,7 +260,8 @@
             rewind: true,
             touchDrag: false,
             mouseDrag: false,
-            margin: 300
+            margin: 300,
+            smartSpeed: 1000
         });
     };
 
