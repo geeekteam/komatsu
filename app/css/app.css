@@ -430,8 +430,8 @@ body {
 .solution__donut-yellow {
   position: absolute;
   z-index: 30;
-  top: 230px;
-  right: 310px;
+  top: 240px;
+  right: 350px;
 }
 
 .parallelepiped-yellow {
