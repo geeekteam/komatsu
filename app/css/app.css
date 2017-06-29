@@ -441,7 +441,7 @@ body {
   background-color: #ffd62d;
   top: 473px;
   left: 382px;
-  transform: skew(-36deg) rotate(-34deg);
+  transform: skew(-36deg) rotate(-36deg);
 }
 
 .solution {
@@ -1063,7 +1063,8 @@ body {
 .capabilities__parallelepiped {
   background-color: #fdc928;
   left: 520px;
-  top: 460px;
+  top: 455px;
+  height: 150px;
   filter: brightness(100%);
 }
 
